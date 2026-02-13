@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: eboutique
+  datasource:
+    username: root
+    password: passer123
+    url: jdbc:mysql://localhost:3306/e_boutique
+  jpa:
+    hibernate:
+      ddl-auto: create
